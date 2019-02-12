@@ -1,0 +1,2 @@
+# lazyloading
+Applying lazy loading
