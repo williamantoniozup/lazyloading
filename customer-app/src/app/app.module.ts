@@ -4,13 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MenubarModule} from 'primeng/menubar';
+import {MenuItem} from 'primeng/api';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    MenubarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
